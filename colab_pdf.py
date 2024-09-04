@@ -1,4 +1,4 @@
-def colab_pdf(file_name, notebookpath=notebook_path_folder):
+def colab_pdf(file_name, notebookpath):
     import os
 
     # Checking if file_name passed is a string.
