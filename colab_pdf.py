@@ -36,7 +36,7 @@ def colab_pdf(file_name, notebookpath):
     try:
         get_ipython().system(
             #"jupyter nbconvert --to PDF 'Untitled.ipynb'"
-            f"jupyter nbconvert '{notebook_path_folder}{file_name}' --to pdf"
+            f"jupyter nbconvert '{notebookpath}{file_name}' --to pdf"
             #"jupyter nbconvert '$notebookpath''$file_name' --to pdf"
         )
     except:
